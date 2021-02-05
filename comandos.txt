@@ -1,0 +1,49 @@
+** COMANDOS A USAR ***
+
+// inicializa el proyecto
+1-npm init
+
+// crear el package.json manualmente para tu propia api
+2- packagename: restapisnode,version 1.0 , description: creando apis,author: christian sanchez, yes.
+
+// intalamos express con NPM
+3- npm install --save express
+
+// instalamos nodemon nodemon es quien monitorea los cambios del lado del servidor y reinicia el servidor.
+4- npm install --save-dev nodemon
+
+// cambiar en el package.json
+
+5-test --> start "nodemon ./index.js"
+
+//ejecuta el servidor
+
+6- npm start
+
+//ajustar variable de entorno de mongodb
+
+C:\Program Files\MongoDB\Server\4.4\bin
+
+//comandos mongodb nuevos
+
+1- abrimos nueva consola 
+2- md \data
+3- md \data\db
+4- mongod -> corre el servicio de mongoDB
+
+//necesitamos otra consola para ejecutar comandos de mongo
+1- mongo -> esto ejecutara la consola de comandos de mongo
+
+// instalar mondgodb compass
+
+1-connectamos la base de datos y creamos una nueva llamada -->restapis
+
+2-creamos la primera collection llamada -->clientes
+
+// instalamos mongoose
+ 1- npm install --save mongoose
+
+
+
+
+
