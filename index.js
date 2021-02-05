@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 //conectar mongo
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/restapis',{
-    useNewUrlParser: true
+    useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true,
 })
 
 //crear el servidor
